@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="AG5.List"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="listView" layoutX="81.0" layoutY="100.0" prefHeight="200.0" prefWidth="439.0" />
+      <Text layoutX="81.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh Sách Sinh Viên " wrappingWidth="189.6708984375">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Button onAction="#form" layoutX="446.0" layoutY="31.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="74.0" text="+">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

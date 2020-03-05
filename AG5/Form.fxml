@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AG5.Form">
+   <children>
+      <TextField fx:id="txtName" layoutX="136.0" layoutY="100.0" prefHeight="31.0" prefWidth="289.0" />
+      <Label layoutX="30.0" layoutY="105.0" text="Name" />
+      <Label layoutX="32.0" layoutY="190.0" text="Age" />
+      <Label layoutX="32.0" layoutY="271.0" prefHeight="21.0" prefWidth="35.0" text="Mark" />
+      <TextField fx:id="txtAge" layoutX="136.0" layoutY="266.0" prefHeight="31.0" prefWidth="289.0" />
+      <TextField fx:id="txtMark" layoutX="136.0" layoutY="185.0" prefHeight="31.0" prefWidth="289.0" />
+      <Text layoutX="136.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhập Danh Sách Sinh Viên" wrappingWidth="298.4287109375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="215.0" layoutY="328.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="120.0" text="Add Student" onAction="#Add" />
+   </children>
+</Pane>
