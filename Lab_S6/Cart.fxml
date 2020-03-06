@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="259.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cart" textAlignment="CENTER" wrappingWidth="82.6708984375">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ListView layoutX="146.0" layoutY="73.0" prefHeight="254.0" prefWidth="426.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ListView>
+      <Button layoutX="26.0" layoutY="73.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="103.0" text="Back To List" />
+   </children>
+</Pane>
